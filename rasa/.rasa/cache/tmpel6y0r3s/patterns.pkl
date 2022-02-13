@@ -1,0 +1,10 @@
+[
+  {
+    "name": "day_name",
+    "pattern": "(\\bmonday\\b|\\btuesday\\b|\\bwednesday\\b|\\bthursday\\b|\\bfriday\\b|\\bsaturday\\b|\\bsunday\\b)"
+  },
+  {
+    "name": "order_name",
+    "pattern": "(\\blasagne\\b|\\bpizza\\b|\\bhot\\-dog\\b|\\bburger\\b|\\bspaghetti\\ carbonara\\b|\\btiramisu\\b)"
+  }
+]

@@ -1,0 +1,24 @@
+- intent: place_order
+  examples: |
+    - i would like to order a [pizza](order_name)
+    - i would like to order [pizza](order_name) [without](with_or_without_name) [tomatoes](ingredient_name)
+    - i would like to have a [lasagne](order_name)
+    - i would like to have a [lasagne](order_name) [with](with_or_without_name) [tomatoes](ingredient_name)
+    - i will take a [hot-dog](order_name)
+    - i will take a [hot-dog](order_name) [without](with_or_without_name) [tomatoes](ingredient_name)
+
+- lookup: with_or_without_name
+  examples: |
+    - with
+    - without
+
+- lookup: ingredient_name
+  examples: |
+    - tamotoe
+    - cheese
+    - chilli
+    - sweetcorn
+    - mushroom
+    - garlic
+    - butter
+
